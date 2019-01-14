@@ -38,5 +38,10 @@ end
 # Define your play method below
 
 def play(board)
-  loop do
+  let i = 0;
+  until i == 9
+    i+= 1
+    turn(board)
+  end
+  
   
