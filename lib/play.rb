@@ -43,5 +43,6 @@ def play(board)
     i+= 1
     turn(board)
   end
+end
   
   
